@@ -34,18 +34,17 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Over automation',
+        link: '/over/over',
       },
     ],
     sidebar: {
-      '/guide/': [
+      '/over/': [
         {
-          title: 'Guide',
-          collapsable: false,
+          title: 'Over',
+          collapsable: true,
           children: [
-            '',
-            'using-vue',
+            'over',
           ]
         }
       ],
