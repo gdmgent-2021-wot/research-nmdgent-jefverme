@@ -1,6 +1,3 @@
----
-sidebar: auto
----
 ![Logo](./logo.png)
 
 # Home assistant

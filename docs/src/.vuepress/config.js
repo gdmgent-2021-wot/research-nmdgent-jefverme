@@ -39,15 +39,15 @@ module.exports = {
       },
       {
         text: 'OpenHAB',
-        link: '/OpenHAB/',
+        link: '/OpenHAB/OpenHAB',
       },
       {
         text: 'Home Assistant',
-        link: '/HomeAssistant/',
+        link: '/HomeAssistant/HomeAssistant',
       },
       {
         text: 'Domoticz',
-        link: '/Domoticz/',
+        link: '/Domoticz/Domoticz',
       },
     ],
     sidebar: {
@@ -57,6 +57,33 @@ module.exports = {
           collapsable: false,
           children: [
             'over',
+          ]
+        }
+      ],
+      '/OpenHAB/': [
+        {
+          title: 'OpenHAB',
+          collapsable: false,
+          children: [
+            'OpenHAB',
+          ]
+        }
+      ],
+      '/HomeAssistant/': [
+        {
+          title: 'Home Assistant',
+          collapsable: false,
+          children: [
+            'HomeAssistant',
+          ]
+        }
+      ],
+      '/Domoticz/': [
+        {
+          title: 'Domoticz',
+          collapsable: false,
+          children: [
+            'Domoticz',
           ]
         }
       ],

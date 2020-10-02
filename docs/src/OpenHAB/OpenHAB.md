@@ -1,14 +1,11 @@
----
-sidebar: auto
----
 ![Logo](./logo.png)
 # OpenHAB
 
 Open Home Automation Bus is een software ontwikkeld in Java om verschillende componenten voor automatisering van verschillende fabrikanten in één platform te verbinden. 
 
-Het is in 2010 ontwikkeld door Kai Kreuzer. Sinds 2013 maakt het deel uit van het Eckipse project. Eclipse smarthome en OpenHAB worden parallel ontwikkeld. 
+Het is in 2010 ontwikkeld door Kai Kreuzer. Sinds 2013 maakt het deel uit van het Eclipse project. Eclipse smarthome en OpenHAB worden parallel ontwikkeld. 
 
-## Werking
+## Architectuur
 
 Een openHAB project is opgedeeld in twee delen:
 * De openHAB-runtime: het serverproces dat de acties uitvoert.
