@@ -29,6 +29,6 @@ Hoe effeciënter het geautomatiseerde systeem is, hoe crucialer de tussenkomst v
 ## Voorbeelden
 * Verkeerslichten
 * Kassasystemen: dit is tegenwoordig een geautomatiseerd proces waar bijgehouden wordt hoeveel producten gekocht zijn en bijgevolg moeten besteld worden. 
-* Productielijnen: In de lijst van top 10 meest geautomatiseerde landen vinden we op plaats 9 Belgi¨met 184 robots per arbeiders in de industrie.
+* Productielijnen: In de lijst van top 10 meest geautomatiseerde landen vinden we op plaats 9 België met 184 robots per arbeiders in de industrie.
 * Zelfrijdende auto’s
 * Domotica

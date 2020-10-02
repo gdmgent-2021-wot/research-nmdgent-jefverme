@@ -37,12 +37,24 @@ module.exports = {
         text: 'Over automation',
         link: '/over/over',
       },
+      {
+        text: 'OpenHAB',
+        link: '/OpenHAB/',
+      },
+      {
+        text: 'Home Assistant',
+        link: '/HomeAssistant/',
+      },
+      {
+        text: 'Domoticz',
+        link: '/Domoticz/',
+      },
     ],
     sidebar: {
       '/over/': [
         {
           title: 'Over',
-          collapsable: true,
+          collapsable: false,
           children: [
             'over',
           ]
