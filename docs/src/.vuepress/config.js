@@ -66,6 +66,10 @@ module.exports = {
           collapsable: false,
           children: [
             'OpenHAB',
+            'Installatie',
+            'Client',
+            'ToDo',
+            'Configuratie'
           ]
         }
       ],
@@ -96,5 +100,15 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'vuepress-plugin-medium-zoom',
+      {
+        selector: '.my-wrapper .my-img',
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: '#BADA55',
+          scrollOffset: 0,
+        },
+      },
   ]
 }

@@ -1,5 +1,5 @@
-![Logo](./logo.png)
 # OpenHAB
+![Logo](./logo.png)
 
 Open Home Automation Bus is een software ontwikkeld in Java om verschillende componenten voor automatisering van verschillende fabrikanten in één platform te verbinden. 
 
