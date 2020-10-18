@@ -1,15 +1,37 @@
 # Configuratie
 
-![Home](./home.png)
-![Kamer](./kamer.png)
-![Living](./living.png)
+![First install](./first_install.jpg)
 
+Na installatie van de server op je raspberri kies je best voor demo installatie. Op deze manier start je met een aantal dummy data waarop je de configuratie van je eigen systeem kan baseren. 
+
+In OpenHAB zijn er twee manieren om aan de slag te gaan voor het configureren van je systeem. Je kan gebruik maken van de UI of je kan zelf de configuratie files aanpassen. Als je kiest voor het laatste kan je gebruik maken van de extensie van Visual Studio Code. Hiermee maak je verbinding met je OpenHAB server en worden al je things en items automatisch gedetecteerd. 
+
+![VS code gif](./vscode.gif)
+
+
+## Configuratie
+
+In je addon.cfg file kan je addons toevoegen. Als je op deze manier je addons gaat installeren, kan je ze niet meer toevoegen via de UI want die worden telkens verwijdert wanneer je de server herstart. 
+
+ ``` Java
+// A comma-separated list of bindings to install (e.g. "binding = sonos,knx,zwave")
+binding = tradfri , sonos , amazonechocontrol , chromecast , buienradar
+ ```
 
 ## Items
+In de configuratie files kan je als volgt items toevoegen. Met een item kan je things op verschillende manieren manipuleren.
+
 ``` Java
 Switch Desk_light_switch  "Lichten bureau schakelaar"  <switch>  (gR, Lights)  ["bureau_kamer"]
 Dimmer Desk_light_dimmer  "Lichten bureau dimmer"  <lightbulb>  (gR)  ["bureau_kamer"]
 ```
+In het voorbeeld hierboven zijn er twee items aangemaakt met volgende velden:
+* Item type Switch
+* Item name Desk_light_switch
+* Item label Lichten bureau schakelaar
+* Item icon switch
+* Item groups gR en Lights
+* Item taggs bureau_kamer
 
 ## Groups
 
@@ -67,8 +89,11 @@ sitemap demo label="Gustaaf Callierlaan"
 }
 ```
 
-## Configuratie
- ``` Java
-// A comma-separated list of bindings to install (e.g. "binding = sonos,knx,zwave")
-binding = tradfri , sonos , amazonechocontrol , chromecast , buienradar
- ```
+## Dashboard
+![Home](./home.png)
+![Living](./living.png)
+![Kamer](./kamer.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wt5OmRW3IEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![Telefoon](./telefoon.jpg)
